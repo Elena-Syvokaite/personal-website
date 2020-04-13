@@ -2,7 +2,7 @@ body {
     height: 100%;
     margin: 0;
     text-align: center;
-    width: 100%;
+    width: 95%;
     background-color: #F0FFF0;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
@@ -37,6 +37,7 @@ body {
 }
 
 .header {
+    font-family: 'Parisienne', cursive;
     padding: 30px;
     font-size: 40px;
     text-align: center;
@@ -47,28 +48,29 @@ body {
   /* Left column */
   .leftcolumn {
     float: left;
-    width: 75%;
+    width: 70%;
   }
   
   /* Right column */
   .rightcolumn {
-    float: left;
+    float: right;
     width: 25%;
-    padding-left: 20px;
+    padding-top: 0px;
+    
   }
   
   /* Fake image */
   .fakeimg {
     background-color: #aaa;
-    width: 100%;
+    width: 90%;
     padding: 20px;
   }
   
   /* Add a card effect for articles */
   .card {
     background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
   }
   
   /* Clear floats after the columns */
@@ -78,14 +80,8 @@ body {
     clear: both;
   }
   
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
   
+
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
@@ -94,19 +90,17 @@ body {
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .social-media {
+    align-items: center;
+    padding-right: 40px;
+    font-size: 45px;
+    
+  }
+  
+  .social-media:hover {
+    cursor: pointer;
+    color: #aae6aa;
+  }
 
 .up{
     font-size: 40px;
