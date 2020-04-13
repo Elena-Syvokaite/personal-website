@@ -40,7 +40,7 @@ header {
 .about {
   width: 100%;
   height: 100vh;
-}
+  }
 
 .about-heading {
   font-family: 'Parisienne', cursive;
@@ -53,8 +53,26 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  height: 30%;
+  width: 15%;
+  height: 45%;
+  
+}
+
+#about-myself-text {
+  font-weight: 200;
+  line-height: 25px;
+}
+
+.social-media {
+  align-items: center;
+  padding-right: 40px;
+  font-size: 45px;
+  
+}
+
+.social-media:hover {
+  cursor: pointer;
+  color: #aae6aa;
 }
 
 .cv {
@@ -283,16 +301,10 @@ font-family: 'Parisienne', cursive;
     background-color: #aae6aa;
   }
 
-  .social-media {
-    align-items: center;
-    padding-right: 40px;
-  }
-
-  .social-media:hover {
-    cursor: pointer;
-    color: #aae6aa;
-  }
-
+.up{
+  font-size: 40px;
+  float: right;
+}
   .up:hover {
     cursor: pointer;
     color: #aae6aa;
