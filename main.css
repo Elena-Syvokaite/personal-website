@@ -58,10 +58,20 @@ header {
   
 }
 
-#about-myself-text {
+.about-myself-text {
+  
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  width: 50%;
+  margin-left: 450px;
+  
   font-weight: 200;
   line-height: 25px;
 }
+
+
 
 .social-media {
   align-items: center;
