@@ -31,22 +31,20 @@ header {
 
 .nav-link:hover {
   cursor: pointer;
-  color: #aae6aa;
+  color: #f9e323;
   transition: 650ms;
 }
 
 /*About myself section*/
 
 #about {
+  width: 50%; 
+  height: 100vh;
   margin: 0 auto;
-  width: 100%;
-  height: 150vh;
-
-}
-
-.about-heading {
-  width: 100%;
-  font-family: 'Parisienne', cursive;
+  position: relative;
+  padding: 20px 30px;
+  background-color: #9ab879;
+  border: 5px solid #f9e323;
 }
 
 .image-frame {
@@ -70,50 +68,37 @@ img {
   width: 50%;
   margin: 0 auto;
   position: relative;
-  padding: 20px 30px;
-  background-color: #9ab879;
-  border: 5px solid #f9e323;
 }
 
 #social-media {
   align-items: center;
   padding-right: 40px;
   font-size: 45px;
+}
 
+/* Space */
+
+.space {
+  width: 100%;
+  height: 100vh;
 }
 
 /*CV section*/
 
 .cv {
-  width: 100%;
-  height: 200vh;
-}
-
-.cv-heading {
-  width: 100%;
-  font-family: 'Parisienne', cursive;
-}
-
-.my-experience {
-  font-size: 17px;
-  text-align: center;
+  width: 70%;
+  height: 250vh;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 30px;
+  background-color: #9ab879;
+  border: 5px solid #f9e323;
 }
 
 .my-education {
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   font-size: 17px;
-}
-
-.education-heading {
-  font-family: 'Parisienne', cursive;
-}
-
-#education-details {
-  width: 50%;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: white;
 }
 
 /* Work experience hyperlinks */
@@ -191,7 +176,7 @@ img {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #aae6aa;
+  border: 4px solid #f9e323;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -218,49 +203,20 @@ img {
   padding: 20px 30px;
   background-color: white;
   position: relative;
-  border-radius: 6px;
+  border-radius: 15px;
+  border: 5px solid #f9e323;
 }
 
 .my-skills {
   font-size: 17px;
 }
 
-.skills-heading {
-  font-family: 'Parisienne', cursive;
-}
-
 .skills-score {
   font-size: 0.45rem;
-
 }
 
-.skills-score:hover {
-  animation-name: circle;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes circle {
-  0% {
-    top: 0.1px;
-  }
-
-  50% {
-    top: 1px;
-    ;
-  }
-}
-
-#skills-details {
-  width: 50%;
-  margin: 0 auto;
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-}
-
-.language-heading {
-  font-family: 'Parisienne', cursive;
+.column{
+  column-count: 3;
 }
 
 .language-title {
@@ -274,8 +230,14 @@ img {
 /* Project section*/
 
 .projects {
-  width: 100%;
-  height: 180vh;
+  width: 70%;
+  height: 220vh;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 30px;
+  background-color: #9ab879;
+  border: 5px solid #f9e323;
+  }
 }
 
 .projects-heading {
@@ -283,13 +245,21 @@ img {
 }
 
 /* Contact section */
+.contact {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 30px;
+  background-color: #9ab879;
+  border: 5px solid #f9e323;
+}
 
 .contact-heading {
   font-family: 'Parisienne', cursive;
 }
 
 form {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -319,7 +289,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   color: black;
-  background-color: #aae6aa;
+  background-color: #f9e323;
 }
 
 #up {
@@ -329,7 +299,7 @@ input[type="submit"]:hover {
 
 #up:hover {
   cursor: pointer;
-  color: #aae6aa;
+  color: #f9e323;
   transition: 650ms;
 }
 
