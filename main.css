@@ -38,13 +38,17 @@ header {
 /*About myself section*/
 
 #about {
-  width: 50%; 
-  height: 100vh;
+  width: 70%; 
+  height: 120vh;
   margin: 0 auto;
   position: relative;
   padding: 20px 30px;
   background-color: #9ab879;
   border: 5px solid #f9e323;
+}
+#header-text{
+  font-family: 'Parisienne', cursive;
+  font-size: 65px;
 }
 
 .image-frame {
@@ -97,42 +101,21 @@ img {
 
 .my-education {
   width: 100%;
-  height: 25vh;
+  height: 15vh;
+  }
+
+#education-details{
   font-size: 17px;
 }
 
 /* Work experience hyperlinks */
 
-.beanstalk {
+.work-hyperlink {
   color: #6ecc6e;
   text-decoration: none;
 }
 
-.beanstalk:hover {
-  text-decoration: none;
-  cursor: pointer;
-  color: #aae6aa;
-  transition: 650ms;
-}
-
-.codefirstgirls {
-  color: #6ecc6e;
-  text-decoration: none;
-}
-
-.codefirstgirls:hover {
-  text-decoration: none;
-  cursor: pointer;
-  color: #aae6aa;
-  transition: 650ms;
-}
-
-.britishcouncil {
-  color: #6ecc6e;
-  text-decoration: none;
-}
-
-.britishcouncil:hover {
+.work-hyperlink:hover {
   text-decoration: none;
   cursor: pointer;
   color: #aae6aa;
@@ -231,14 +214,14 @@ img {
 
 .projects {
   width: 70%;
-  height: 220vh;
+  height: 100vh;
   margin: 0 auto;
   position: relative;
   padding: 20px 30px;
   background-color: #9ab879;
   border: 5px solid #f9e323;
   }
-}
+
 
 .projects-heading {
   font-family: 'Parisienne', cursive;
@@ -246,7 +229,7 @@ img {
 
 /* Contact section */
 .contact {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   position: relative;
   padding: 20px 30px;
