@@ -80,6 +80,10 @@ img {
   width: 50%;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
+  border-radius: 0%;
+  margin: auto;
+  text-align: justify;
 }
 
 #social-media {
@@ -92,12 +96,10 @@ img {
 
 .space {
   width: 100%;
-  height: 100vh;
+  height: 20vh;
 }
 
 /*CV section*/
-
-
 
 .my-education {
   width: 100%;
